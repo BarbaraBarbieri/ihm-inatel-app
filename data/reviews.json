@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "materialId": 1,
+    "mentorId": null,
+    "userId": 1,
+    "userName": "João da Silva",
+    "rating": 5,
+    "comment": "Material excelente! Muito bem explicado e com exercícios práticos que realmente ajudam no aprendizado.",
+    "createdAt": "2024-02-15"
+  },
+  {
+    "id": 2,
+    "materialId": 2,
+    "mentorId": null,
+    "userId": 1,
+    "userName": "João da Silva",
+    "rating": 4,
+    "comment": "Bom material sobre algoritmos. Poderia ter mais exemplos práticos, mas no geral é muito útil.",
+    "createdAt": "2024-02-10"
+  },
+  {
+    "id": 3,
+    "materialId": null,
+    "mentorId": 1,
+    "userId": 1,
+    "userName": "João da Silva",
+    "rating": 5,
+    "comment": "Professor excelente! Explica de forma muito clara e tem muita paciência. Recomendo!",
+    "createdAt": "2024-02-08"
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "id": 1,
+    "name": "Roberto Ferreira",
+    "specialty": "Matemática e Física",
+    "bio": "Estudante do 5º período de Engenharia Física com excelente aproveitamento em disciplinas de cálculo e física. Monitor de laboratório de física.",
+    "rating": 4.9,
+    "reviews": 89,
+    "hourlyRate": 35.0,
+    "totalSessions": 234,
+    "subjects": [
+      "Cálculo",
+      "Álgebra Linear",
+      "Física Geral",
+      "Física Moderna"
+    ],
+    "availability": [
+      {
+        "day": "Segunda",
+        "slots": [
+          "09:00",
+          "10:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "Terça",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "Quarta",
+        "slots": [
+          "09:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "Quinta",
+        "slots": [
+          "10:00",
+          "11:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "Sexta",
+        "slots": [
+          "09:00",
+          "10:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "education": "Cursando Engenharia Física - USP",
+    "experience": "2 anos como monitor",
+    "languages": [
+      "Português",
+      "Inglês"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Luciana Mendes",
+    "specialty": "Programação e Desenvolvimento",
+    "bio": "Estudante de Ciência da Computação com experiência em desenvolvimento web. Monitora de disciplinas de algoritmos e estruturas de dados.",
+    "rating": 4.8,
+    "reviews": 67,
+    "hourlyRate": 40.0,
+    "totalSessions": 189,
+    "subjects": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Algoritmos"
+    ],
+    "availability": [
+      {
+        "day": "Segunda",
+        "slots": [
+          "19:00",
+          "20:00",
+          "21:00"
+        ]
+      },
+      {
+        "day": "Terça",
+        "slots": [
+          "19:00",
+          "20:00",
+          "21:00"
+        ]
+      },
+      {
+        "day": "Quarta",
+        "slots": [
+          "19:00",
+          "20:00"
+        ]
+      },
+      {
+        "day": "Quinta",
+        "slots": [
+          "19:00",
+          "20:00",
+          "21:00"
+        ]
+      },
+      {
+        "day": "Sábado",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "education": "Cursando Ciência da Computação - UNICAMP",
+    "experience": "3 anos como desenvolvedora júnior",
+    "languages": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Carlos Andrade",
+    "specialty": "Química e Biologia",
+    "bio": "Estudante de farmácia com ótimo desempenho em disciplinas de química e biologia. Participa de grupo de estudos e pesquisa em bioquímica.",
+    "rating": 4.7,
+    "reviews": 43,
+    "hourlyRate": 30.0,
+    "totalSessions": 156,
+    "subjects": [
+      "Química Geral",
+      "Química Orgânica",
+      "Bioquímica",
+      "Biologia Molecular"
+    ],
+    "availability": [
+      {
+        "day": "Segunda",
+        "slots": [
+          "08:00",
+          "09:00",
+          "10:00",
+          "16:00",
+          "17:00"
+        ]
+      },
+      {
+        "day": "Terça",
+        "slots": [
+          "08:00",
+          "09:00",
+          "16:00",
+          "17:00"
+        ]
+      },
+      {
+        "day": "Quarta",
+        "slots": [
+          "08:00",
+          "09:00",
+          "10:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "Quinta",
+        "slots": [
+          "08:00",
+          "09:00",
+          "16:00",
+          "17:00"
+        ]
+      },
+      {
+        "day": "Sexta",
+        "slots": [
+          "08:00",
+          "09:00",
+          "10:00"
+        ]
+      }
+    ],
+    "education": "Cursando Farmácia - UFRJ",
+    "experience": "2 anos de monitoria em laboratório",
+    "languages": [
+      "Português",
+      "Inglês"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Amanda Torres",
+    "specialty": "Estatística e Data Science",
+    "bio": "Estudante de estatística com interesse em ciência de dados. Participou de projetos de análise de dados e possui certificações em Python e R.",
+    "rating": 4.9,
+    "reviews": 78,
+    "hourlyRate": 45.0,
+    "totalSessions": 201,
+    "subjects": [
+      "Estatística",
+      "R",
+      "Python",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "availability": [
+      {
+        "day": "Segunda",
+        "slots": [
+          "18:00",
+          "19:00",
+          "20:00"
+        ]
+      },
+      {
+        "day": "Terça",
+        "slots": [
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00"
+        ]
+      },
+      {
+        "day": "Quarta",
+        "slots": [
+          "18:00",
+          "19:00",
+          "20:00"
+        ]
+      },
+      {
+        "day": "Quinta",
+        "slots": [
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00"
+        ]
+      },
+      {
+        "day": "Sábado",
+        "slots": [
+          "10:00",
+          "11:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      }
+    ],
+    "education": "Cursando Estatística - UERJ",
+    "experience": "1 ano como analista de dados júnior",
+    "languages": [
+      "Português",
+      "Inglês",
+      "Francês"
+    ]
+  }
+]

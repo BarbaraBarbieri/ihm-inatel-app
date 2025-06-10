@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "mentorId": 1,
+    "mentorName": "Dr. Roberto Ferreira",
+    "subject": "Cálculo Diferencial",
+    "date": "2024-02-25",
+    "time": "14:00",
+    "duration": 60,
+    "status": "confirmed",
+    "price": 45.0,
+    "notes": "Revisão para prova de cálculo"
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "mentorId": 2,
+    "mentorName": "Profª. Luciana Mendes",
+    "subject": "Python Básico",
+    "date": "2024-02-27",
+    "time": "19:00",
+    "duration": 60,
+    "status": "pending",
+    "price": 55.0,
+    "notes": "Introdução ao Python e estruturas de dados"
+  }
+]

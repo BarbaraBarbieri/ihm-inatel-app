@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "materialId": 1,
+    "userId": 1,
+    "addedAt": "2024-02-20"
+  },
+  {
+    "id": 2,
+    "materialId": 3,
+    "userId": 1,
+    "addedAt": "2024-02-20"
+  }
+]

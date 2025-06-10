@@ -1,0 +1,246 @@
+.schedule-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.schedule-calendar {
+  background-color: var(--neutral-100);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.calendar-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.calendar-nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.calendar-nav-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--neutral-200);
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.calendar-nav-btn:hover {
+  background-color: var(--neutral-300);
+  transform: scale(1.05);
+}
+
+.calendar-month-year {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.25rem;
+}
+
+.calendar-day-header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  padding: 0.5rem 0;
+}
+
+#calendar-days-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.25rem;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.calendar-day:not(.empty):not(.disabled):hover {
+  background-color: var(--neutral-200);
+  transform: scale(1.05);
+}
+
+.calendar-day.active {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.calendar-day.disabled {
+  color: var(--text-disabled);
+  cursor: not-allowed;
+}
+
+.calendar-day.empty {
+  cursor: default;
+}
+
+.time-slots {
+  background-color: var(--neutral-100);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.time-slots-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.time-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.time-slot {
+  background-color: var(--neutral-200);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.time-slot:hover {
+  background-color: var(--neutral-300);
+  transform: translateY(-2px);
+}
+
+.time-slot.active {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.time-slot.disabled {
+  background-color: var(--neutral-200);
+  color: var(--text-disabled);
+  cursor: not-allowed;
+}
+
+.time-slot-time {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.time-slot-duration {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.time-slot-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 1.5rem 0;
+}
+
+.schedule-summary {
+  background-color: var(--neutral-100);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.schedule-summary-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.schedule-summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--neutral-200);
+}
+
+.schedule-summary-item:last-child {
+  border-bottom: none;
+}
+
+.schedule-summary-label {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.schedule-summary-value {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Actions */
+.schedule-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.schedule-actions .btn {
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .schedule-modal {
+    padding: 1.5rem;
+  }
+  
+  .calendar-day {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .schedule-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  
+  .schedule-calendar {
+    grid-column: 1;
+  }
+  
+  .time-slots {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .schedule-summary {
+    grid-column: 1 / -1;
+  }
+}
